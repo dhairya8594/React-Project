@@ -1,0 +1,281 @@
+.sep {
+    background-color: #ffffff;
+    box-shadow: #757474 3px 5px 10px;
+    border-radius: 10px;
+    float: left;
+            margin-top: 100px;
+            margin-left: 30px;
+
+    height: 396px;
+    position: relative;
+    width: 181px;
+}
+
+.sep .LATEST-PRODUCTS-wrapper {
+    align-items: flex-start;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #3eb489;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    left: 5px;
+    padding: 12px 0px;
+    position: absolute;
+    top: 10px;
+    width: 171px;
+}
+
+.sep .img-s {
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.sep .div-s {
+    height: 300px;
+    left: 5px;
+    position: absolute;
+    top: 84px;
+    width: 171px;
+}
+
+
+
+
+.sep .div-2-s {
+    align-items: flex-start;
+    display: flex;
+    gap: 10px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 171px;
+}
+.sep .div-2-s:hover {
+    background-color: #757474;
+    border-radius: 10px;
+}
+
+.sep .image-s {
+    height: 47.58px;
+    object-fit: cover;
+    position: relative;
+    width: 50px;
+}
+
+.sep .div-3-s {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+}
+.sep .div-3-s:hover {
+    background-color: #757474;
+    border-radius: 10px;
+}
+
+
+.sep .div-4-s {
+    align-items: flex-start;
+    display: flex;
+    gap: 10px;
+    left: 0;
+    position: absolute;
+    top: 78px;
+    width: 171px;
+}
+.sep .div-4-s:hover {
+    background-color: #757474;
+    border-radius: 10px;
+}
+
+
+.sep .image-2-s {
+    height: 38px;
+    left: 4px;
+    position: absolute;
+    top: 235px;
+    width: 41px;
+}
+.sep .image-2-s:hover {
+    background-color: #757474;
+    border-radius: 10px;
+}
+
+
+.sep .div-5-s {
+    align-items: flex-start;
+    /* display: inline-flex; */
+    flex-direction: column;
+    gap: 12px;
+    left: 0px;
+    position: absolute;
+    top: 233px;
+    width: 171px;
+}
+.sep .div-5-s:hover {
+    background-color: #757474;
+    border-radius: 10px;
+}
+
+
+
+
+.sep .group-s {
+    height: 48px;
+    left: 0;
+    position: absolute;
+    top: 155px;
+    width: 168px;
+}
+.sep .group-s:hover {
+    background-color: #757474;
+    border-radius: 10px;}
+
+.sep .image-3-s {
+    height: 48px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 48px;
+}
+
+.sep .quis-ullamcorper {
+    height: 13px;
+    left: 60px;
+    position: absolute;
+    top: 8px;
+    width: 105px;
+}
+
+.sep .img-2-s {
+    height: 8px;
+    left: 60px;
+    position: absolute;
+    top: 35px;
+    width: 52px;
+}
+
+/* card */
+.card-list3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 1060px;
+    margin: 14px auto;
+    padding: 20px;
+    gap: 16px;
+}
+.v{
+    height: 1px;
+    width: 2px;
+}
+.card-list3 .card-item3 {
+    background: #cbcbcb;
+    padding: 26px;
+    border-radius: 8px;
+    box-shadow: #757474 3px 5px 10px;            list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: border 0.5s ease;
+    height: 187px;
+    margin-top: 86px;
+
+}
+.card-list3 .card-item3:hover {
+    border: 2px solid #000;
+}
+.card-list3 .card-item3 img {
+    width: 40%;
+    aspect-ratio: 18/9;
+    border-radius: 8px;
+    object-fit: cover;
+    /* border: 207px #000; */
+    box-shadow: 5px 2px 10px gray;
+    float: left;
+
+}
+.card-item3 .text1{
+    width: 146px;
+
+    float: right;
+}
+.card-list3 .card-item3 .per{
+    height: 8px;
+    margin-top: 0px;
+   width: 195px;
+   float: right;
+}
+.tttt{
+    color: #000;
+    margin-top: -8px;
+}
+.g-p{
+    align-items: flex-start;
+    background-color: #3eb489;
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 10px;
+    padding: 6px 14px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.card-list3 span {
+    display: inline-block;
+    background: #F7DFF5;
+    margin-top: 32px;
+    padding: 8px 15px;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.card-list3 .developer {
+    background-color: #F7DFF5; 
+    color: #B22485;
+}   
+.card-list3 .designer {
+    background-color: #d1e8ff;
+    color: #2968a8;
+}
+.card-list3 .editor {
+    background-color: #d6f8d6; 
+    color: #205c20;
+}
+.card-item3 h3 {
+    color: #000;
+    font-size: 1.438rem;
+    margin-top: 28px;
+    font-weight: 600;
+}
+.card-item3 .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-35deg);
+    height: 40px;
+    width: 40px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-top: 40px;
+    transition: 0.2s ease;
+}
+.card-list3 .card-item3:hover .arrow  {
+    background: #000;
+    color: #fff; 
+}
+@media (max-width: 1200px) {
+    .card-list .card-item {
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .card-list {
+        margin: 0 auto;
+    }
+}
